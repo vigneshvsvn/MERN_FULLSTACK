@@ -1,0 +1,53 @@
+# HTML: HyperText Markup Language
+
+## What is HTML?
+
+HTML is the main markup language for creating web pages and web applications.
+
+It is the code used to structure a web page and its content.
+
+## What does HTML stand for?
+
+- **HyperText**: This refers to links. A link can be text, an image, or media that takes you to another page or part of the page.
+- **Markup Language**: This is a way to add structure and meaning to content using tags.
+
+HTML uses tags to tell browsers how to display content like headings, paragraphs, images, and links.
+
+## HTML structure
+
+A simple HTML page has a basic structure with these parts:
+
+- `<!DOCTYPE html>`: Tells the browser that the page uses HTML5.
+- `<html>`: The root element that wraps the whole page.
+- `<head>`: Contains page settings, title, and links to styles or scripts.
+- `<title>`: Sets the page title shown in the browser tab.
+- `<body>`: Contains the visible content for the page, such as text, images, and links.
+
+Example structure:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page</title>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    <p>This is a simple page.</p>
+  </body>
+</html>
+```
+
+## What is HTML used for?
+
+HTML is used for:
+
+- Building the structure of web pages.
+- Adding headings, paragraphs, lists, and links.
+- Showing images, videos, and other media.
+- Creating forms for user input.
+- Making content ready for CSS styling and JavaScript behavior.
+
+With HTML, you create the content and layout that users see in a browser.
+
+
