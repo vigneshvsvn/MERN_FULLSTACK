@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'); /* Birthday-themed background image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .invitation-card {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .birthday-person {
+            font-size: 2.5em;
+            color: #FFD700;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .date {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #FFA500;
+        }
+        .details {
+            font-size: 1.2em;
+            margin: 30px 0;
+            line-height: 1.6;
+        }
+        .contact-links {
+            margin-top: 30px;
+        }
+        .contact-links a {
+            display: inline-block;
+            margin: 10px 20px;
+            padding: 15px 30px;
+            background: #25D366; /* WhatsApp green */
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .contact-links a:hover {
+            background: #128C7E;
+        }
+        .venue-link {
+            background: #4285F4 !important; /* Google Maps blue */
+        }
+        .venue-link:hover {
+            background: #3367D6 !important;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation-card">
+        <h1>🎉 You're Invited! 🎉</h1>
+        <div class="birthday-person">Privika's Birthday</div>
+        <div class="date">📅 Date: Sunday, February 22, 2026</div>
+        <div class="date">🕒 Time: 7:00 PM</div>
+        
+        <div class="details">
+            <p>Join us for an unforgettable celebration!</p>
+            <p>Cake, games, and lots of fun await!</p>
+            <p>RSVP by April 10th</p>
+        </div>
+        
+        <div class="contact-links">
+            <a href="https://wa.me/9487420965?text=Hi%2C%20I'm%20coming%20to%20John%27s%20birthday%20party!" target="_blank">
+                📱 Contact via WhatsApp
+            </a>
+            <a href="https://maps.app.goo.gl/hNv6dPsDY6P35bog9" class="venue-link" target="_blank">
+                📍 Venue Location
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>We can't wait to celebrate with you! 🎂</p>
+        </div>
+    </div>
+</body>
+</html>
