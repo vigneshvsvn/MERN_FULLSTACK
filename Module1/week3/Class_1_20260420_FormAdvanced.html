@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Forms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<form action="../week2/Success.html" method="post">
+<fieldset>
+<legend>Form </legend>
+<label for="Number">Number :</label>
+<input type="number" name="NumberData" min="0" max="10000" placeholder="RollNumber" required><br><br>
+<label for="PhoneNumber">Phone Number:</label>
+<input type="tel" name="PhoneNumber" maxlength="10" pattern="[0-9]{10}" required> <br><br>
+<label for="URL">URL</label>
+<input type="url">
+<br><br>
+<label>Enter time</label>
+<input type="time"><br><br>
+<label>Enter Datetime</label>
+<input type="datetime-local"><br><br>
+<label>Enter the range</label>
+<input type="range" min="0" max="20"><br><br>
+
+<input type="search" placeholder="enter the search data"  required>
+<i class="fa fa-search"></i>
+<br>
+<i class="fa-brands fa-adn"></i>
+<input type="hidden" value="sub"><br>
+<input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROHxYft1f_Ln_y_scKnh8-g5rLMmce7JKyPQ&s"><br>
+<button>Click</button>
+<input type="submit" value="Login">
+<input type="reset" value="cancel"><br>
+<input type="text" name="username" value="Vignesh"  readonly>
+<input type="text" name="address" value=""   autofocus  >
+
+<input type="submit" value="Login">
+<input type="reset">
+
+ <select multiple size="4">
+    <optgroup>
+    <option>HTML</option>
+    <option>CSS</option>
+    </optgroup>
+    <option>Javascript</option>
+    <option>React</option>
+    <option>AngularJS</option>
+   <option>Nodejs</option>
+   
+</select><br>
+<input type="text" name="number" value="20" disabled>
+        <button>Click</button>
+ <textarea name="Address" id="" rows="3" cols="5" maxlength="100"></textarea>
+
+</fieldset>
+
+
+    <a href="http://google.com" target="_blank">Google</a>
+    <a href="http://google.com" target="_parent">Google</a>
+
+
+
+</select>
+
+
+</form>
+
+</body>
+</html>
