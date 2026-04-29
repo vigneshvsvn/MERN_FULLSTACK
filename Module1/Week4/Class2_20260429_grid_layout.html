@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .layout{
+            background-color: cornsilk;
+            display: grid;
+           grid-template-columns: repeat(5,1fr);
+            grid-template-areas: "h h h h h "
+                                  "sb1  m m  m sb2 "
+                                  "sb1 f f f f ";
+            text-align: center;
+          grid-template-rows: 10vh 80vh 10vh;
+        }
+        .layout div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header{
+            background-color: aqua;
+            grid-area: h;
+        }
+        .sidebar1{
+            background-color: blueviolet;
+            grid-area: sb1;
+        }
+        .main{
+            background-color: brown;
+            grid-area:m;
+        }
+         .sidebar2{
+            background-color: rgb(220, 226, 43);
+            grid-area: sb2;
+        }
+        .footer{
+            background-color: chartreuse;
+            grid-area: f;
+        }
+    </style>
+</head>
+<body>
+ <div class="layout">
+    <div class="header">Header</div>
+      <div class="sidebar1">SideBar-1</div>
+      <div class="main">Main</div>
+      <div class="sidebar2">SideBar-2</div>
+      <div class="footer">Footer</div>
+ </div>   
+</body>
+</html>

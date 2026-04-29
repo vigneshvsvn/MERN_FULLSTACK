@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Advanced</title>
+    <style>
+        .flex {
+            border: 10px black solid;
+            width: 500px;
+            height: 400px;
+            display: flex;
+            /* -------------------------------------------- */
+            /* flex-direction: row; default with flex */
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse;
+            flex-direction: column-reverse; */
+
+
+            /* -------------------------------------------- */
+            /* Align items: used to arrange items from Top to Bottow(Column wise alignment)  values: center, flex-start,flex-end */
+            /* align-items:center; */
+
+
+            /* -------------------------------------------- */
+            /* justify-content: used to arange items from Left to Rigth (Row wise alignment) */
+            /* justify-content: center; */
+
+            /* -------------------------------------------- */
+            /* Wrap*/
+            /* flex-wrap: wrap;  used to add multiple line*/ 
+
+           div:nth-child(3)
+            {
+           /* align-self: center;  */
+           /* flex-grow: 2; works only if space is available*/  
+            /* flex-shrink: 2; works only if space is not sufficient */
+            }
+        }
+
+        .box {
+            background-color: brown;
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <!-- <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div> -->
+
+
+    </div>
+</body>
+
+</html>
